@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #b5c7dd;
+}
+
+div{
+    margin: 10px 0px 0px 90px;
+    align-items: center;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(61, 113, 131);
+}
+
+table, th, td {
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 2%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    text-align: center;
+    width: 30%;
+}
+tr:hover {
+    border: 2px solid black;
+}

@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10%;
+   
+  }
+  
+  @media only screen and (max-device-width:600px) {
+    table {
+      margin-left: 25% 0% 0% 25%;
+      transform: rotate(90deg);
+      
+    }
+  
+    tr:nth-child(1) {
+      visibility: hidden;
+      
+    }
+
+    tr:nth-child(2) {
+      display: inline-block;
+      position: absolute;
+       padding: 115px 0px 0px 300px; 
+    }
+    tr:nth-child(3) {
+      display: inline-block;
+      position: absolute;
+      padding: 115px 0px 0px 950px; 
+    }
+    tr:nth-child(4) {
+      display: inline-block;
+      position: absolute;
+      padding: 115px 0px  0px 1600px; 
+    }
+
+    tr:nth-child(5) {
+      display: inline-block;
+      position: absolute;
+      padding: 115px 0px  0px 2250px; 
+    }
+
+    tr:nth-child(6) {
+      display: inline-block;
+      position: absolute;
+      padding: 115px 0px  0px 3000px; 
+    }
+    
+   
+  }
+  
+  
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+    word-spacing: 38px;
+  }
+  
+  
+  table, td, th {
+  width: auto;
+  height: 50px;
+  padding: 10px; 
+  margin: 50px 0% 0% 25%; /*190*/
+  border-collapse: collapse;
+  border: 1px solid gray;
+  border-left: none;
+  text-align: center;
+  }
+  
+  
+  td {
+    background-color: rgb(230, 230, 230);
+  }
+
+ tr:first-child td {
+  background-color: white;
+  text-decoration-color: gray;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom: none;
+  text-align: left;
+  vertical-align: bottom;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+ }
+  
+  
+td:first-child {
+  background-color: white;
+  
+  border-top-style: hidden;
+  border-bottom-style:  hidden;
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+  }
+
+  td:nth-child(2), td:nth-child(4), 
+  td:nth-child(6), td:nth-child(8),
+  td:nth-child(10),td:nth-child(12),
+  td:nth-child(14), td:nth-child(16),
+  td:nth-child(18), td:nth-child(20),
+  td:nth-child(22), td:nth-child(24),
+  td:nth-child(26), td:nth-child(28),
+  td:nth-child(30), td:nth-child(32),
+  td:nth-child(34), td:nth-child(36),
+  td:nth-child(38), td:nth-child(40),
+  td:nth-child(42), td:nth-child(44),
+  td:nth-child(46), td:nth-child(48) {
+    border-right: 2px dashed gray;
+
+  }
+  
